@@ -1,6 +1,6 @@
 # 🌌 Galactica Aeternum - Star Wars Garry's Mod RP Server
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![Garry's Mod](https://img.shields.io/badge/Garry's%20Mod-DarkRP-orange)](https://www.garrysmod.com/)
 [![Star Wars](https://img.shields.io/badge/Theme-Star%20Wars-yellow)](https://starwars.com)
 
@@ -217,29 +217,23 @@ TEAM_SITHLORD = DarkRP.createJob("Sith Lord", {
 
 ## 🛡️ License
 
-This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
+This project is **PROPRIETARY** - **ALL RIGHTS RESERVED** - see the [LICENSE](LICENSE) file for details.
 
-### Important:
-- You **MUST** share any modifications under the same GPL-3.0 license
-- You **MUST** provide source code for any distributed versions
-- You **CANNOT** sublicense or sell this code
-- Commercial use is allowed but must comply with GPL-3.0 terms
+### ⛔ STRICTLY PROHIBITED:
+- You **CANNOT** copy, clone, or download this repository
+- You **CANNOT** use any code or content from this repository
+- You **CANNOT** modify, distribute, or create derivative works
+- You **CANNOT** fork this repository
+- You **CAN ONLY** view the code for portfolio/demonstration purposes
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+This is a **PRIVATE PROJECT** - No contributions are accepted.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/NewFeature`)
-3. Commit your changes (`git commit -m 'Add NewFeature'`)
-4. Push to the branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-- Follow existing code style
-- Test all changes thoroughly
-- Document new features
-- Ensure GPL-3.0 compliance
+This repository is for demonstration purposes only. 
+- No pull requests will be accepted
+- No issues will be addressed
+- No forks are permitted
 
 ## 👨‍💻 Credits
 
@@ -260,10 +254,10 @@ Contributions are welcome! Please follow these steps:
 ## 📝 Changelog
 
 ### Version 1.0.0 (2025)
-- Initial public release
+- Initial release
 - 50+ custom Star Wars jobs
 - Complete server configuration
-- GPL-3.0 licensing
+- Proprietary license - All Rights Reserved
 
 ## ⚠️ Disclaimer
 
