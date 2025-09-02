@@ -1,0 +1,122 @@
+// Galactica Aeternum Server Configuration
+// Star Wars Garry's Mod RP Server
+// IMPORTANT: Rename this file to server.cfg and update all passwords!
+
+// Basic Server Settings
+hostname "Galactica Aeternum - Star Wars RP"
+sv_password "" // Leave empty for public server
+rcon_password "CHANGE_THIS_PASSWORD" // IMPORTANT: Change this!
+sv_region "255" // 255 = World
+sv_lan "0" // 0 = Internet, 1 = LAN only
+sv_logbans "1"
+sv_logecho "1"
+sv_logfile "1"
+sv_log_onefile "0"
+
+// Network Settings
+sv_minrate "0"
+sv_maxrate "30000"
+sv_minupdaterate "10"
+sv_maxupdaterate "66"
+sv_mincmdrate "10"
+sv_maxcmdrate "66"
+net_maxfilesize "64"
+
+// Gameplay Settings
+sbox_noclip "0" // Disable noclip for non-admins
+sbox_godmode "0" // Disable godmode for non-admins
+sbox_playershurtplayers "1" // PvP enabled
+sv_gravity "600"
+sv_friction "4"
+sv_stopspeed "10"
+sv_accelerate "5"
+sv_airaccelerate "10"
+
+// Limits
+sbox_maxprops "150"
+sbox_maxragdolls "5"
+sbox_maxnpcs "10"
+sbox_maxballoons "10"
+sbox_maxeffects "50"
+sbox_maxdynamite "10"
+sbox_maxlamps "20"
+sbox_maxthrusters "30"
+sbox_maxwheels "20"
+sbox_maxhoverballs "20"
+sbox_maxvehicles "6"
+sbox_maxbuttons "20"
+sbox_maxemitters "5"
+
+// DarkRP Settings
+rp_demotetimelimit "120"
+rp_doorwarrants "1"
+rp_dropmoneyondeath "0"
+rp_earthquakes "0"
+rp_enablebuypistol "1"
+rp_enableshipments "1"
+rp_globaltags "1"
+rp_ironshoot "1"
+rp_letters "1"
+rp_license "0"
+rp_lockdown "1"
+rp_maxdrugs "2"
+rp_maxfoods "2"
+rp_maxlawboards "2"
+rp_maxletters "10"
+rp_maxlotterycost "250"
+rp_maxvehicles "1"
+rp_microwavefoodcost "30"
+rp_minlotterycost "30"
+rp_moneyremovetime "600"
+rp_npckillpay "0"
+rp_paydaytime "300"
+rp_pocketitems "1"
+rp_proppaying "0"
+rp_propspawning "1"
+rp_removeclassitems "1"
+rp_respawntime "1"
+rp_responsetime "300"
+rp_restrictallteams "0"
+rp_restrictbuypistol "0"
+rp_restrictdropweapon "0"
+rp_shipmentspawntime "10"
+rp_showdeaths "1"
+rp_showhealth "1"
+rp_showjob "1"
+rp_showname "1"
+rp_stunstickdamage "1000"
+rp_telefromjail "1"
+rp_teletojail "1"
+rp_toolgun "1"
+rp_voiceradius "1"
+rp_tax "0"
+rp_wantedtime "120"
+rp_webhookurl ""
+rp_wellpaying "0"
+
+// Voice Chat
+sv_voiceenable "1"
+sv_alltalk "0" // 0 = Team voice chat, 1 = Global voice chat
+
+// Downloads
+sv_allowdownload "1"
+sv_allowupload "1"
+sv_downloadurl "" // FastDL URL if available
+
+// Loading Screen
+sv_loadingurl "" // Custom loading screen URL
+
+// Execute ULX config
+exec ulx_config.cfg
+
+// Star Wars Specific Settings
+// Lightsaber damage multiplier
+wos_lightsaber_damage_scale "1.0"
+
+// Force power cooldowns
+wos_force_cooldown_multiplier "1.0"
+
+// Add workshop content
+// Example: +host_workshop_collection YOUR_COLLECTION_ID
+
+echo "Galactica Aeternum server configuration loaded"

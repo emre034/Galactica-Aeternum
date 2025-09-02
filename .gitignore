@@ -1,0 +1,52 @@
+# Server Database
+*.db
+sv.db
+
+# Third-party Addons (copyright protection)
+addons/*
+!addons/darkrpmodification/
+!addons/ulib/
+!addons/ulx/
+!addons/README.md
+
+# Logs
+data/darkrp_logs/*.txt
+data/ulx_logs/*.txt
+data/awarn2/
+data/pac3_cache/
+data/watchlist/
+logs/
+
+# User Data
+data/ulib/users.txt
+data/ulib/bans.txt
+data/ulx/adverts.txt
+data/ulx/banreasons.txt
+data/ulx/votemaps.txt
+
+# Server Config (contains passwords)
+cfg/server.cfg.backup
+cfg/banned_*.cfg
+
+# Cache and temporary files
+cache/
+download/
+downloadlists/
+*.cache
+*.tmp
+
+# OS Files
+.DS_Store
+._*
+Thumbs.db
+
+# Personal/Private Data
+data/notepad/
+data/bodyman/
+data/xeon/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+*_old.*
